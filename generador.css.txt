@@ -1,0 +1,9 @@
+body { background: #f8f8fa; font-family: Arial, sans-serif; }
+.generator-container { max-width: 480px; margin: 40px auto; background: #fff; border-radius: 12px; box-shadow: 0 2px 12px #0001; padding: 32px; }
+h1 { text-align: center; color: #C1321F; }
+label { display: block; margin-top: 18px; font-weight: bold; }
+textarea, input[type="date"], input[type="text"] { width: 100%; margin-top: 6px; padding: 8px; border-radius: 6px; border: 1px solid #ccc; font-size: 1em; }
+button { margin-top: 18px; padding: 10px 18px; background: #FC6F58; color: #fff; border: none; border-radius: 6px; font-size: 1em; cursor: pointer; }
+button:hover { background: #C1321F; }
+.result { margin-top: 24px; }
+#result-url { background: #f0f0f0; }

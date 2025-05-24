@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generador de URL Personalizada</title>
+  <link rel="stylesheet" href="generador.css">
+</head>
+<body>
+  <div class="generator-container">
+    <h1>Generador de URL Personalizada</h1>
+    <label>Mensaje de dedicatoria:</label>
+    <textarea id="dedication-text" rows="6">Para mi amor:
+
+Gracias por estar siempre a mi lado,
+por tu sonrisa, tu apoyo y tu ternura.
+Eres la razón de mi felicidad.
+Te amo con todo mi corazón.</textarea>
+    <label>Fecha especial (inicio):</label>
+    <input type="date" id="start-date" value="2024-08-03">
+    <label>Próximo evento (aniversario):</label>
+    <input type="date" id="event-date" value="2025-08-03">
+    <label>Firma personalizada (opcional):</label>
+    <input type="text" id="firma" placeholder="Con amor, Zero">
+    <button id="generate-btn">Generar URL</button>
+    <div class="result">
+      <label>URL personalizada:</label>
+      <input type="text" id="result-url" readonly>
+      <button id="copy-btn">Copiar</button>
+    </div>
+  </div>
+  <script src="generador.js"></script>
+</body>
+</html>
