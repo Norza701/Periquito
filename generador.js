@@ -4,7 +4,7 @@ document.getElementById('generate-btn').onclick = function() {
   const eventDate = document.getElementById('event-date').value;
   const firma = encodeURIComponent(document.getElementById('firma').value);
   // Cambia TU_USUARIO por tu usuario real de GitHub
-  let url = `https://zero3-web.github.io/Arbol_De_Amor/?text=${text}&start=${start}&event=${eventDate}`;
+  let url = `https://github.com/Norza701/Periquito.git/?text=${text}&start=${start}&event=${eventDate}`;
   if (firma && firma !== "") url += `&firma=${firma}`;
   document.getElementById('result-url').value = url;
 };
