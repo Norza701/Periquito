@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Generador de Enlace Personalizado</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Generador de Enlace para el Contador</h1>
+        <form id="generator-form">
+            <label>Fecha de inicio:<br>
+                <input type="date" id="fecha">
+            </label>
+            <label>Título:<br>
+                <input type="text" id="titulo" placeholder="Estamos juntos">
+            </label>
+            <label>Mensaje inferior:<br>
+                <input type="text" id="mensajeInferior" placeholder="y ha sido de los mejores días de mi vida">
+            </label>
+            <label>Mensaje de la carta:<br>
+                <textarea id="mensajeCarta" rows="3" placeholder="Mensaje especial"></textarea>
+            </label>
+            <label>URL de la foto:<br>
+                <input type="text" id="fotoURL" placeholder="Img/foto.jpg">
+            </label>
+            <label>URL de la música:<br>
+                <input type="text" id="musicaURL" placeholder="Music/tu-cancion.mp3">
+            </label>
+            <button type="submit">Generar enlace</button>
+        </form>
+        <div id="resultado" style="margin-top:2em;display:none;">
+            <label>Enlace generado:</label>
+            <input type="text" id="enlace" readonly style="width:100%;">
+            <button id="copiar">Copiar</button>
+            <button id="abrir">Abrir</button>
+        </div>
+    </div>
+    <script src="generador.js"></script>
+</body>
+</html>
